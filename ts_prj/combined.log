@@ -1,0 +1,16 @@
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"Transaction saved: {\"id\":\"085c27ad-f58a-4721-b705-7d9d3b73af43\",\"fromAccount\":\"12345\",\"toAccount\":\"67890\",\"amount\":100,\"timestamp\":\"2025-01-27T20:12:30.764Z\"}"}
+{"level":"info","message":"Transaction saved: {\"id\":\"972a230b-7726-4a69-a58a-900ffe045762\",\"fromAccount\":\"12345\",\"toAccount\":\"67890\",\"amount\":100,\"timestamp\":\"2025-01-27T20:12:40.328Z\"}"}
+{"level":"warn","message":"Cannot transfer to the same account"}
+{"level":"info","message":"Transaction saved: {\"id\":\"62f22c41-33bb-4894-8967-a8ba8c5c4e14\",\"fromAccount\":\"12345\",\"toAccount\":\"67890\",\"amount\":100,\"timestamp\":\"2025-01-27T20:12:54.797Z\"}"}
+{"level":"warn","message":"Missing required fields"}
+{"level":"warn","message":"Missing required fields"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"warn","message":"Missing required fields"}
+{"level":"info","message":"Transaction saved: {\"id\":\"54ee3fe3-6537-472b-beb4-95c858130cd7\",\"fromAccount\":\"12345\",\"toAccount\":\"67890\",\"amount\":100,\"timestamp\":\"2025-01-27T20:15:05.572Z\"}"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
