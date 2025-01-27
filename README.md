@@ -152,7 +152,7 @@ I have successfully built and implemented a secure Express.js API hat processes 
     - amount validity as a positive number and of type `number`
     - fromAccount, toAccount validity as not being same account (i.e user cannot transfer to self)
 
-- I also made sure to cater for proper error handling by building a logger congifuration to aid for debugging. This effort here also provides a log file to store logs. Storing logs inturn gives us the ability to look back into the past and see the behaviour of our code (errors and otherwise) which helps mitigate issues quickly during debugging.
+- I also made sure to cater for proper error handling by building a logger congifuration to aid debugging. This effort also provides a log file to store logs. Storing logs inturn gives us the ability to look back into the past and see the behaviour of our code (errors and otherwise) which helps mitigate issues quickly during debugging.
 
 ``` ts
 import winston from "winston";
@@ -179,7 +179,7 @@ Output:
 {"level":"info","message":"Transaction saved: {\"id\":\"54ee3fe3-6537-472b-beb4-95c858130cd7\",\"fromAccount\":\"12345\",\"toAccount\":\"67890\",\"amount\":100,\"timestamp\":\"2025-01-27T20:15:05.572Z\"}"}
 {"level":"info","message":"Server is running on http://localhost:3000"}
 ```
-- And finally to address the `Prevention of duplicate transactions`, by cross-referencing if a transaction with similar details exists with a diffrence of less than 5 seconds apart fromm the initiated transaction and flagging it as duplicate. This measure also acts as a safegaurd to allow for settlement callbacks before a transaction with same details can go through. It also allows for a minimally invasive step agains DOS attack, as it safely reduces the amount of transaction possible from a single user.
+- And finally to address the `Prevention of duplicate transactions`, by cross-referencing if a transaction with similar details exists with a diffrence of less than 5 seconds apart from the initiated transaction and flagging it as duplicate. This measure also acts as a safegaurd to allow for settlement callbacks before a transaction with same details can go through. It also allows for a minimally invasive step against DOS attack, as it safely reduces the amount of transaction possible from a single user.
 
 
 **2. Optimizing SQL Query**  
@@ -195,7 +195,7 @@ LIMIT 50;
 To arrive as the optimized query above I have both taken and avoided some typical practices. Here I have listed the steps I took
 
 1. **Avoid `SELECT *`**  
-   - Instead of fetching *all* columns (`SELECT *`),I would explicitly list only the ones you need (e.g., `transaction_id, amount, date, status`).  
+   - Instead of fetching *all* columns (`SELECT *`), I would explicitly list only the ones you need (e.g., `transaction_id, amount, date, status`).  
    - **Why?** Fewer columns = less data transferred and processed → faster queries.
 
 2. **Indexing the `customer_id` and `date`**  
