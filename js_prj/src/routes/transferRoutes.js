@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { transferFunds } from "../controllers/transferController";
-import { validateTransfer } from "../middleware/validateTransfer";
+import { transferFunds } from '../controllers/transferController.js';
+import { validateTransfer } from "../middleware/validateTransfer.js";
 
 const router = Router();
 

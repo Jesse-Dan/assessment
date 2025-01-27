@@ -1,18 +1,29 @@
 {
   "name": "assesment",
   "version": "1.0.0",
-  "description": "//",
-  "main": "js_prj/app.js",
+  "description": "Microfinance banking application",
+  "type": "module",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node js_prj/app.js"
+    "dev": "nodemon app.js",
+    "start": "NODE_ENV=production node js_prj/app.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "banking",
+    "microfinance",
+    "nodejs"
+  ],
+  "author": "Your Name <your.email@example.com>",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "uuid": "^9.0.1",
     "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }

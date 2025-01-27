@@ -1,5 +1,5 @@
-import { Transaction } from "../models/transactionModel";
-import { info } from "../config/logger";
+import { logger } from "../config/logger.js";
+import { Transaction } from "../models/transactionModel.js";
 
 const transactions = new Map();
 
@@ -20,7 +20,7 @@ class TransferService {
     const transaction = new Transaction(fromAccount, toAccount, amount);
     transactions.set(transaction.id, transaction);
 
-    info(`Transaction saved: ${JSON.stringify(transaction)}`);
+    logger.debug(`Transaction saved: ${JSON.stringify(transaction)}`);
 
     return transaction;
   }

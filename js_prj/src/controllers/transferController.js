@@ -1,7 +1,7 @@
-import TransferService from "../services/transferService";
-import logger from "../config/logger";
+import { logger } from "../config/logger.js";
+import TransferService from "../services/transferService.js";
 
-const transferFunds = async (req, res, next) => {
+export const transferFunds = async (req, res, next) => {
   const { fromAccount, toAccount, amount } = req.body;
 
   try {
@@ -22,5 +22,3 @@ const transferFunds = async (req, res, next) => {
     next(error);
   }
 };
-
-export default { transferFunds };

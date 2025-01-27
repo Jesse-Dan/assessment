@@ -1,0 +1,48 @@
+{"level":"error","message":"Transfer failed: logger is not defined"}
+{"level":"error","message":"Error: logger is not defined"}
+{"level":"error","message":"Transfer failed: Duplicate transaction detected"}
+{"level":"error","message":"Error: Duplicate transaction detected"}
+{"level":"error","message":"Transfer failed: Duplicate transaction detected"}
+{"level":"error","message":"Error: Duplicate transaction detected"}
+{"level":"error","message":"Transfer failed: logger is not defined"}
+{"level":"error","message":"Error: logger is not defined"}
+{"level":"error","message":"Transfer failed: logger is not defined"}
+{"level":"error","message":"Error: logger is not defined"}
+{"level":"error","message":"Transfer failed: Duplicate transaction detected"}
+{"level":"error","message":"Error: Duplicate transaction detected"}
+{"level":"error","message":"Transfer failed: Duplicate transaction detected"}
+{"level":"error","message":"Error: Duplicate transaction detected"}
+{"level":"error","message":"Transfer failed: Duplicate transaction detected"}
+{"level":"error","message":"Error: Duplicate transaction detected"}
+{"level":"error","message":"Transfer failed: Duplicate transaction detected"}
+{"level":"error","message":"Error: Duplicate transaction detected"}
+{"level":"error","message":"Transfer failed: Duplicate transaction detected"}
+{"level":"error","message":"Error: Duplicate transaction detected"}
+{"level":"error","message":"Transfer failed: Duplicate transaction detected"}
+{"level":"error","message":"Error: Duplicate transaction detected"}
+{"level":"error","message":"Transfer failed: logger is not defined"}
+{"level":"error","message":"Error: logger is not defined"}
+{"level":"error","message":"Transfer failed: logger is not a function"}
+{"level":"error","message":"Error: logger is not a function"}
+{"level":"error","message":"Transfer failed: Duplicate transaction detected"}
+{"level":"error","message":"Error: Duplicate transaction detected"}
+{"level":"error","message":"Transfer failed: logger is not a function"}
+{"level":"error","message":"Error: logger is not a function"}
+{"level":"error","message":"Transfer failed: logger is not a function"}
+{"level":"error","message":"Error: logger is not a function"}
+{"level":"error","message":"Transfer failed: Cannot create property 'Symbol(level)' on string 'Transaction saved: {\"id\":\"cf7793c8-d7bb-4043-86a2-e83107f7f9b7\",\"fromAccount\":\"12345\",\"toAccount\":\"67890\",\"amount\":100,\"timestamp\":\"2025-01-27T22:55:18.678Z\"}'"}
+{"level":"error","message":"Error: Cannot create property 'Symbol(level)' on string 'Transaction saved: {\"id\":\"cf7793c8-d7bb-4043-86a2-e83107f7f9b7\",\"fromAccount\":\"12345\",\"toAccount\":\"67890\",\"amount\":100,\"timestamp\":\"2025-01-27T22:55:18.678Z\"}'"}
+{"level":"error","message":"Transfer failed: Duplicate transaction detected"}
+{"level":"error","message":"Error: Duplicate transaction detected"}
+{"level":"error","message":"Transfer failed: Duplicate transaction detected"}
+{"level":"error","message":"Error: Duplicate transaction detected"}
+{"level":"error","message":"Transfer failed: Duplicate transaction detected"}
+{"level":"error","message":"Error: Duplicate transaction detected"}
+{"level":"error","message":"Transfer failed: Duplicate transaction detected"}
+{"level":"error","message":"Error: Duplicate transaction detected"}
+{"level":"error","message":"Transfer failed: Duplicate transaction detected"}
+{"level":"error","message":"Error: Duplicate transaction detected"}
+{"level":"error","message":"Transfer failed: Duplicate transaction detected"}
+{"level":"error","message":"Error: Duplicate transaction detected"}
+{"level":"error","message":"Transfer failed: Duplicate transaction detected"}
+{"level":"error","message":"Error: Duplicate transaction detected"}

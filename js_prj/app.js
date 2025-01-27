@@ -1,7 +1,7 @@
-import express from "express";
-import { json } from "body-parser";
+import json from "body-parser";
 import { config } from "dotenv";
-import logger from "./src/config/logger.js";
+import express from "express";
+import { logger } from "./src/config/logger.js";
 import transferRoutes from "./src/routes/transferRoutes.js";
 
 config();

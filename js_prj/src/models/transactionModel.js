@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 
-class Transaction {
+export class Transaction {
   constructor(fromAccount, toAccount, amount) {
     this.id = uuidv4();
     this.fromAccount = fromAccount;
@@ -10,4 +10,3 @@ class Transaction {
   }
 }
 
-export default Transaction;

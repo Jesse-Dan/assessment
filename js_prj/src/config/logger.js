@@ -1,10 +1,10 @@
 import {
-  createLogger,
   format as _format,
   transports as _transports,
+  createLogger,
 } from "winston";
 
-const logger = createLogger({
+ export const logger = createLogger({
   level: "info",
   format: _format.json(),
   transports: [
@@ -13,5 +13,6 @@ const logger = createLogger({
     new _transports.File({ filename: "combined.log" }),
   ],
 });
+
 
 export default logger;
