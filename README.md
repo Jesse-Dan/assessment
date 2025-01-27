@@ -89,7 +89,7 @@ The concept of Idempotency entails that performing the same operation multiple t
 
 ---
 
-### Section B: Backend Development  
+### Section B: Backend Development  (Theoretical Questions)
 **1. ACID Properties**  
 ACID (Atomicity, Consistency, Isolation, Durability) ensures the reliability and integrity of financial transactions in databases. These properties are critical for financial applications to maintain accuracy, dependability, and security.  
 
@@ -141,11 +141,11 @@ My method of bank transaction security encryption would be to create an in-house
 
 
 
-### Section B: Backend Development  
+### Section B: Backend Development (Practical Tasks)
 
 **1. Building a secure Express.js API**  
 
-I have successfully built and implemented a secure Express.js API hat processes a funds transfer request securely, i have done this in both JavaScript and TypeScript.
+I have successfully built and implemented a secure Express.js API hat processes a funds transfer request securely, I have done this in both JavaScript and TypeScript.
 
 - I ensured that Input validation is effective by building a middleware interface to intercept and   validate request before getting to the service layer. The validation performed by the api are as listed below:
     - fromAccount, toAccount, amount validations for missing required fields
@@ -192,10 +192,10 @@ ORDER BY date DESC
 LIMIT 50;
 ```
 
-To arrive as the optimized query above i have both taken and avoided some typical practices. Here I have listed the steps i took
+To arrive as the optimized query above I have both taken and avoided some typical practices. Here I have listed the steps I took
 
 1. **Avoid `SELECT *`**  
-   - Instead of fetching *all* columns (`SELECT *`),i would explicitly list only the ones you need (e.g., `transaction_id, amount, date, status`).  
+   - Instead of fetching *all* columns (`SELECT *`),I would explicitly list only the ones you need (e.g., `transaction_id, amount, date, status`).  
    - **Why?** Fewer columns = less data transferred and processed → faster queries.
 
 2. **Indexing the `customer_id` and `date`**  
